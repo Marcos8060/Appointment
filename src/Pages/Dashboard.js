@@ -1,17 +1,19 @@
 import React from "react";
 import { FaUserCircle } from "react-icons/fa";
+import { BiPlus } from 'react-icons/bi'
 
 const Dashboard = () => {
   return (
     <>
-      <section className="bg-gray px-4 py-2">
-        <div className="flex bg-gray">
-          <div className="w-2/12 mx-auto text-center bg-white rounded py-2">
+      <section className="px-4 py-2">
+        <div className="flex">
+          <div className="w-2/12 mx-auto text-center bg-white shadow-2xl rounded py-4 mx-2">
             <FaUserCircle className="mx-auto text-2xl" />
             <p>Marcos Ochieng</p>
+            <button className="bg-blue text-white px-3 py-2 mt-4 text-xs rounded-3xl font-semibold">Book New Appointment</button>
           </div>
-          <div className="w-10/12 mx-auto bg-gray py-4 px-4">
-            <button className="uppercase bg-blue text-white p-2 text-xs rounded font-semibold">Book appointment</button>
+          <div className="w-10/12 mx-auto bg-gray rounded py-4 px-4 mx-4">
+            <h1>All</h1>
           </div>
         </div>
       </section>
